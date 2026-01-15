@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { APP_CONFIG } from '../../constants/appConfig';
+import { APP_CONFIG } from '../../constants/appConfig.js';
 import toast from 'react-hot-toast';
 
 // Create axios instance

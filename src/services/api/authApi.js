@@ -1,7 +1,7 @@
 
 // src/services/api/authApi.js
 import api from './axiosConfig';
-import { API_ENDPOINTS } from '../../constants/apiEndpoints.js';
+import { API_ENDPOINTS } from './../../constants/apiEndpoints.js';
 
 export const authApi = {
   // Register new user

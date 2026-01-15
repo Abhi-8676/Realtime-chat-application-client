@@ -1,7 +1,7 @@
 // src/store/slices/notificationSlice.js
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import api from '../../services/api/axiosConfig';
-import { API_ENDPOINTS } from '../../constants/apiEndpoints';
+import { API_ENDPOINTS } from '../../constants/apiEndpoints.js';
 
 export const fetchNotifications = createAsyncThunk(
   'notification/fetchNotifications',
